@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inversión Responsable - StreetBall Andaluz</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #d97706;
+            font-size: 2.2rem;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            text-align: center;
+            color: #666;
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+        .investment-total {
+            text-align: center;
+            margin: 30px 0;
+        }
+        .total-amount {
+            font-size: 3rem;
+            font-weight: bold;
+            color: #d97706;
+        }
+        .total-label {
+            font-size: 1.1rem;
+            color: #666;
+        }
+        .investment-item {
+            margin-bottom: 20px;
+        }
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+        .progress-container {
+            height: 24px;
+            background-color: #e5e7eb;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+        .progress-bar {
+            height: 100%;
+            background-color: #f97316;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding-right: 10px;
+            color: white;
+            font-size: 0.8rem;
+            font-weight: bold;
+        }
+        .investment-note {
+            text-align: center;
+            font-style: italic;
+            color: #666;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+            }
+            h2 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Inversión responsable</h2>
+        <p class="subtitle">Financiado 100% con capital propio. Transparencia y compromiso.</p>
+        
+        <div class="investment-total">
+            <div class="total-amount">120 €</div>
+            <div class="total-label">Total invertido</div>
+        </div>
+        
+        <div class="investment-breakdown">
+            <div class="investment-item">
+                <div class="item-header">
+                    <span>Material deportivo</span>
+                    <span>60 €</span>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar" style="width: 50%;">50%</div>
+                </div>
+            </div>
+            
+            <div class="investment-item">
+                <div class="item-header">
+                    <span>Organización logística</span>
+                    <span>40 €</span>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar" style="width: 33.33%; background-color: #fb923c;">33%</div>
+                </div>
+            </div>
+            
+            <div class="investment-item">
+                <div class="item-header">
+                    <span>Publicidad</span>
+                    <span>20 €</span>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar" style="width: 16.67%; background-color: #fdba74;">17%</div>
+                </div>
+            </div>
+            
+            <div class="investment-item">
+                <div class="item-header">
+                    <span>Alquiler de instalaciones</span>
+                    <span>0 €</span>
+                </div>
+                <div class="progress-container">
+                    <div class="progress-bar" style="width: 0%; background-color: #d1d5db;"></div>
+                </div>
+            </div>
+        </div>
+        
+        <p class="investment-note">
+            Este modelo de inversión reducida nos permite ofrecer eventos de calidad de forma sostenible.
+        </p>
+    </div>
+</body>
+</html>
+
